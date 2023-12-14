@@ -5,8 +5,14 @@ React React Native, REST APIs, Server-Side development, etc. I also enjoy machin
 my LinkedIn at https://www.linkedin.com/in/theophilus-thobejane-3b6a0b220 .
 
 
+
+
 ![TheoInCodeLand's Stats](https://github-readme-stats.vercel.app/api?username=TheoInCodeLand&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
+
+
 ![TheoInCodeLand's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheoInCodeLand&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
+
+
 ![TheoInCodeLand's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheoInCodeLand&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
 
 <!--
