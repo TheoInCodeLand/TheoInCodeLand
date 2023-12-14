@@ -7,14 +7,13 @@ my LinkedIn at https://www.linkedin.com/in/theophilus-thobejane-3b6a0b220 .
 
 
 
-![TheoInCodeLand's Stats](https://github-readme-stats.vercel.app/api?username=TheoInCodeLand&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
+![TheoInCodeLand's Stats](https://github-readme-stats.vercel.app/api?username=TheoInCodeLand&theme=vue&show_icons=true&hide_border=true&count_private=true)
 
 
-![TheoInCodeLand's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheoInCodeLand&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
+![TheoInCodeLand's Streak](https://github-readme-streak-stats.herokuapp.com/?user=TheoInCodeLand&theme=vue&hide_border=true)
 
 
-![TheoInCodeLand's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheoInCodeLand&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
-
+![TheoInCodeLand's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheoInCodeLand&theme=vue&show_icons=true&hide_border=true&layout=compact)
 <!--
 **TheoInCodeLand/TheoInCodeLand** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
