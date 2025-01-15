@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/projects.css">
+
+    <!-- --------- FONT AWESOME ---------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio | Theo_In_Code_Land</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Thobejane</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#education" class="nav-link">Education</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            
+            <a href="https://github.com/Thobejane2000"><button class="btn">GitHub</button></a>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Theophilus Thobejane</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>
+                    I'm a passionate Web Developer with a focus on front-end and back-end development. I building dynamic and responsive websites using technologies like Node.js, React, and more.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <a href="#projects">
+                    <button class="btn blue-btn">Skip to projects</button>
+                </a>
+                <!-- <button class="btn">Download CV <i class="uil uil-file-alt"></i></button> -->
+            </div>
+            <div class="social_icons">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-dribbble"></i></div>
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="/images/graduation.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>See more!</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>
+                        I graduated with a diploma in ICT from University Of Mpumalanga, majoring in Application Development . 
+                        I have a strong passion for front-end development but also enjoy working on the back-end. 
+                        I have experience building full-stack applications using Node.js, React, and SQLite. 
+                        I'm always eager to learn new technologies and take on challenges.
+                    </p>
+                    <div class="about-btn">
+                        <!-- <button class="btn">Download CV <i class="uil uil-import"></i></button> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML <i class="fa-brands fa-html5"></i></span>
+                        <span>EJS</span>
+                        <span>CSS <i class="fa-brands fa-css3-alt"></i></span>
+                        <span>Bootstrap <i class="fa-brands fa-bootstrap"></i></span>
+                        <span>JavaScript <i class="fa-brands fa-js"></i></span>
+                        <span>React <i class="fa-brands fa-react"></i></span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Node.js <i class="fa-brands fa-node"></i></span>
+                        <span>Express.js <i class="fa-brands fa-node-js"></i></span>
+                        <span>JAVA <i class="fa-brands fa-java"></i></span>
+                        <span>Django <i class="fa-brands fa-python"></i></span>
+                        
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>SQLite <i class="fa-solid fa-database"></i></span>
+                        <span>MongoDB <i class="fa-solid fa-database"></i></span>
+                        <span>Git <i class="fa-brands fa-git-alt"></i></span>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- EDUCATION BOX ---------------- -->
+
+       <section class="section" id="education">
+          <div class="top-header">
+              <h1>Education & Certifications</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Diploma In ICT (NQF 5) | University Of Mpumalanga</h3>
+                <label>Started 2021 -- Completed 2023</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Advanced Diploma in ICT (NQF 6) | University Of Mpumalanga</h3>
+                <label>Started 2024 -- Completed 2024</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Responsive Web Development | Free-Code-Camp</h3>
+                <label>Completed 2023 Dec</label>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+       <div class="top-header" id="projects">
+            <h1>Completed Projects</h1>
+       </div>
+       <section class="projects-section">
+        <div class="project-card">
+            <h2 class="project-title web-design">Car rental <br> website</h2>
+            <p class="project-description">
+                A web application for customers to browse available cars, book rentals, and calculate car purchase costs with monthly installment estimates. Integrated with a PayFast payment gateway and user authentication for customer and admin roles.
+                <!-- <strong>Technologies: Node.js, Express.js, SQLite, EJS, CSS</strong> -->
+
+            </p>
+            <!-- <img src="/images/car-rental.png" alt="Web Design" class="project-image"> -->
+            <video src="/images/Web Design Mastery _ RentalX - Google Chrome 2024-12-16 16-35-50.mp4" class="project-image" autoplay controls muted></video>
+            <div class="buttons">
+                <a href="https://github.com/Thobejane2000/Sakhe-Carpentry-website"><button>Git Hub</button></a>
+                <a href=""><button>Demo Website</button></a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h2 class="project-title web-design">University blog <br> website</h2>
+            <p class="project-description">
+                A platform for admins to post blogs with media, manage university documents for visitors to view/download, post events on a calendar, and handle announcements. Photographer booking system with automatic email notifications for accepted bookings.
+
+            </p>
+            <!-- <img src="/images/university-website.png" alt="Web Design" class="project-image"> -->
+            <video src="/images/UMP _ University Of Mpumalanga - Google Chrome 2024-12-16 16-46-30.mp4" class="project-image" autoplay controls muted></video>
+            <div class="buttons">
+                <a href="https://github.com/Thobejane2000/University-Blog-website"><button>Git Hub</button></a>
+                <a href=""><button>Demo Website</button></a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h2 class="project-title web-design">Elegant carpentry <br> website</h2>
+            <p class="project-description">
+                A web application for customers to browse available cars, book rentals, and calculate car purchase costs with monthly installment estimates. Integrated with a PayFast payment gateway and user authentication for customer and admin roles.
+                <!-- <strong>Technologies: Node.js, Express.js, SQLite, EJS, CSS</strong> -->
+
+            </p>
+            <!-- <img src="/images/car-rental.png" alt="Web Design" class="project-image"> -->
+            <video src="/images/Document - Google Chrome 2024-12-16 20-23-27.mp4" class="project-image" autoplay controls muted></video>
+            <div class="buttons">
+                <a href="https://github.com/Thobejane2000/Sakhe-Carpentry-website"><button>Git Hub</button></a>
+                <a href="https://sakhe-carpentry-website.vercel.app/"><button>Demo Website</button></a>
+            </div>
+        </div>
+
+       </section>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+          </div>
+          <div class="row">
+             <div class="col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.525935389759!2d28.21630167545275!3d-26.049062877172467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956b68befe7ced%3A0xc1d282906f049412!2s17%20Kosirivier%20St%2C%20Norkem%20Park%2C%20Kempton%20Park%2C%201618!5e0!3m2!1sen!2sza!4v1734356942915!5m2!1sen!2sza" width="600" height="380" style="border-radius: 10px; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div>
+             <form action="https://formsubmit.co/theophiles.thobejane@gmail.com" class="col" method="post">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" name="name" class="input-field" placeholder="Name">
+                        <input type="text" name="email" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="text-area">
+                        <textarea placeholder="Message" name="message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn" type="submit">Send <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+             </form>
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Theophilus Thobejane .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#education">Education</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <a href="">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+            </a>
+            <a href="https://www.linkedin.com/in/theophilus-thobejane-239b2533b/">
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            </a>
+            <a href="https://github.com/Thobejane2000">
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </a>
+        </div>
+        
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+/* ----- VARIABLES ----- */
+:root{
+    --body-color: rgb(250, 250, 250);
+    --color-white: rgb(255, 255, 255);
+
+    --text-color-second: rgb(68, 68, 68);
+    --text-color-third: rgb(30, 159, 171);
+
+    --first-color: rgb(110, 87, 224);
+    --first-color-hover: rgb(40, 91, 212);
+
+    --second-color: rgb(0, 201, 255);
+    --third-color: rgb(192, 166, 49);
+    --first-shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+.projects-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #6e57e025;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 32%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    margin-bottom: 0.5em;
+}
+
+.project-card .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.project-card .buttons button {
+    font-size: small;
+    padding: 12px 20px;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+    width: 100%;
+}
+
+.project-card .buttons button:hover {
+    background: var(--first-color);
+    color: var(--color-white);
+    border-radius: 10px;
+}
+
+.project-card .buttons a{
+    width: 45%;
+}
+.project-card:hover {
+    box-shadow: 0 4px 8px var(--first-color);
+}
+
+/* Title Styling */
+.project-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-title.web-design {
+    color: var(--first-color);
+}
+
+.project-title.web-development {
+    color: #00d9ff;
+}
+
+.project-title.graphic-design {
+    color: #00ffcc;
+}
+
+/* Description Styling */
+.project-description {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Image Styling */
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
